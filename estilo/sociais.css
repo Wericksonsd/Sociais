@@ -10,14 +10,21 @@
     height: 0;
 }
 
+
 img{
-    width: 100vw;
+    width: 100vw;    
 }
 
-a{
-    background-color: rgb(39, 39, 39);
+a{    
+    margin-top: -4px;
+    display: block;
+    background-color: rgb(95, 14, 14);
     text-align: center;
     text-decoration: none;
     color: antiquewhite;
     padding: 5px;
+}
+
+a:hover{
+    background-color: red;
 }
