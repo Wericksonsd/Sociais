@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 
 *{
     margin: 0;
@@ -36,4 +36,22 @@ iframe#tela{
     left: 22px;
     width: 268px;
     height: 480px;
+}
+
+section#sociais{
+    text-align: right;
+}
+
+section#sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.39);    
+    box-sizing: border-box;
+}
+
+section#sociais img:hover{
+    transform: translate(-2px, -2px);    
+    border: 2px solid rgba(255, 255, 255, 0.507);
+    transition: transform 0.3s, border 0.2s;
 }
